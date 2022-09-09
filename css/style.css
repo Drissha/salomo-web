@@ -1,0 +1,375 @@
+body {
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: Poppins, sans-serif;
+}
+
+.sidebar {
+  border-radius: 20px;
+  background-color: rgba(118, 117, 117, 0.3);
+  padding-top: 2.5rem;
+  padding-right: 2.5rem;
+  padding-bottom: 1rem;
+  padding-left: 2.5rem;
+  color: white;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  margin-top: 3rem;
+}
+
+.sidebar .wrapper-img {
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: rgba(118, 117, 117, 0.3);
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.sidebar .blue-hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.sidebar .wrapper-icon {
+  padding: .5rem;
+  border-radius: 10px;
+  background-color: rgba(118, 117, 117, 0.3);
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-right: .5rem;
+}
+
+.sidebar .text-contact p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.sidebar .platform {
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+
+.sidebar .cp {
+  font-size: 14px;
+}
+
+.blue-hr {
+  border: 1px solid #638FFF;
+  opacity: 1;
+}
+
+main {
+  background: rgba(118, 117, 117, 0.3);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  border-radius: 20px;
+}
+
+main .navbar {
+  width: 55%;
+  border-radius: 0px 0px 20px 20px;
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+  background-color: rgba(118, 117, 117, 0.3);
+}
+
+main .navbar .nav-link {
+  color: white;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+main .navbar .nav-link.active {
+  color: #638FFF;
+}
+
+main .navbar :hover {
+  color: #638FFF;
+}
+
+main .navbar :focus {
+  color: #638FFF;
+}
+
+main .about {
+  color: white;
+  margin-top: 3rem;
+}
+
+main .about .blue-hr {
+  margin-top: 0px;
+  width: 9.5%;
+  margin-left: auto;
+  margin-right: 48%;
+  margin-bottom: 2.5rem;
+}
+
+main .about h3 {
+  font-weight: 600;
+}
+
+main .about h5 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-weight: 400;
+}
+
+main .WiD {
+  color: white;
+}
+
+main .WiD .blue-hr {
+  width: 12.5%;
+  margin-left: 39%;
+  margin-top: 0px;
+}
+
+main .WiD .item {
+  background: rgba(118, 117, 117, 0.3);
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+  border-radius: 10px;
+  padding: 3rem;
+}
+
+main .WiD .item img {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+main .WiD .item h6 {
+  font-weight: 600;
+}
+
+main .education {
+  color: white;
+}
+
+main .education .header {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .education .header .blue-hr {
+  width: 63%;
+  margin-top: 0px;
+}
+
+main .education .wrapper-icon {
+  padding: .5rem;
+  border-radius: 10px;
+  background-color: rgba(118, 117, 117, 0.3);
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-right: .5rem;
+}
+
+main .education .edu .blue-hr {
+  width: 0px;
+  height: 100px;
+  margin-top: -10px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 2.2%;
+}
+
+main .education .edu .primary-color {
+  color: #638FFF;
+}
+
+main .certi {
+  color: white;
+}
+
+main .certi .header {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .certi .header .blue-hr {
+  width: 60%;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .certi .item {
+  background: rgba(118, 117, 117, 0.3);
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+  border-radius: 10px;
+  padding: 3rem;
+}
+
+main .certi .item img {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+main .certi .item .date {
+  font-size: 13px;
+}
+
+main .certi .item h6 {
+  font-weight: 600;
+}
+
+main .skill {
+  background: rgba(118, 117, 117, 0.3);
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+  border-radius: 10px;
+  padding: 3rem;
+  color: white;
+}
+
+main .skill .progress {
+  height: 7px;
+  background-color: #D9D9D980;
+}
+
+main .skill .progress .progress-bar {
+  background-color: #638FFF;
+}
+
+main .portfolio {
+  color: white;
+}
+
+main .portfolio .header {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .portfolio .header .blue-hr {
+  width: 60%;
+  margin-top: 0px;
+}
+
+main .portfolio .link a {
+  color: white;
+}
+
+main .portfolio .link :hover {
+  color: #638FFF !important;
+}
+
+main .portfolio .link :focus {
+  color: #638FFF !important;
+}
+
+main .portfolio .link .active {
+  color: #638FFF;
+}
+
+main .portfolio .card-item .wrapper-img {
+  padding: 0rem 1.5rem 0rem 1.5rem;
+  border-radius: 10px;
+  background-color: rgba(118, 117, 117, 0.3);
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+main .contact {
+  color: white;
+}
+
+main .contact .header {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .contact .header .blue-hr {
+  width: 60%;
+  margin-top: 0px;
+}
+
+main .contact input.form-control {
+  width: 60%;
+}
+
+main .contact .form {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .contact .form .form-control {
+  background-color: transparent;
+  color: white;
+  border: 1px solid #638FFF;
+  border-radius: 10px;
+}
+
+main .contact .form ::-webkit-input-placeholder {
+  color: white;
+}
+
+main .contact .form :-ms-input-placeholder {
+  color: white;
+}
+
+main .contact .form ::-ms-input-placeholder {
+  color: white;
+}
+
+main .contact .form ::placeholder {
+  color: white;
+}
+
+main .contact .form .btn-submit {
+  background-color: rgba(118, 117, 117, 0.3);
+  border: 1px solid #638FFF;
+  border-radius: 10px;
+  color: white;
+}
+
+main .contact .form .btn:hover {
+  background-color: #638FFF;
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    width: 100% !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

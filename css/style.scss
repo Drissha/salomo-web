@@ -1,0 +1,292 @@
+$font-primary: Poppins, sans-serif;
+$bg-primary: rgba(118, 117, 117, 0.3);
+$secondary-color: rgba(118, 117, 117, 0.3);
+$active: #638FFF;
+
+body{
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: $font-primary;
+}
+
+.sidebar{
+    border-radius: 20px;
+    background-color: $secondary-color;
+    padding-top: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    color: white;
+    backdrop-filter: blur(4px);
+    margin-top: 3rem;
+    .wrapper-img{
+        padding: 1rem;
+        border-radius: 20px;
+        background-color: $secondary-color;
+        backdrop-filter: blur(25px);
+        width: fit-content;
+    }
+    .blue-hr{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .wrapper-icon{
+        padding: .5rem;
+        border-radius: 10px;
+        background-color: $secondary-color;
+        backdrop-filter: blur(25px);
+        width: fit-content;
+        height: fit-content;
+        margin-right: .5rem;
+    }
+    .text-contact{
+        p{
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+    .platform{
+        margin-top: 8rem;
+        margin-bottom: 5rem;
+    }
+    .cp{
+        font-size: 14px;
+    }
+}
+
+.blue-hr{
+    border: 1px solid #638FFF;
+    opacity: 1;
+}
+
+main{
+    background: rgba(118, 117, 117, 0.3);
+    backdrop-filter: blur(4px);
+    border-radius: 20px;
+    .navbar{
+        width: 55%;
+        border-radius: 0px 0px 20px 20px;
+        backdrop-filter: blur(25px);
+        background-color: $secondary-color;
+        .nav-link{
+            color: white;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        .nav-link.active{
+            color: #638FFF;
+        }
+        :hover{
+            color: #638FFF;
+        }
+        :focus{
+            color: #638FFF;
+        }
+    }
+    .about{
+        color: white;
+        margin-top: 3rem;
+        .blue-hr{
+            margin-top: 0px;
+            width: 9.5%;
+            margin-left: auto;
+            margin-right: 48%;
+            margin-bottom: 2.5rem;
+        }
+        h3{
+            font-weight: 600;
+        }
+        h5{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+            font-weight: 400;
+        }
+    }
+    .WiD{
+        color: white;
+        .blue-hr{
+            width: 12.5%;
+            margin-left: 39%;
+            margin-top: 0px;
+        }
+        .item{
+            background: $secondary-color;
+            backdrop-filter: blur(25px);
+            border-radius: 10px;
+            padding: 3rem;
+            img{
+                height: fit-content;
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+            h6{
+                font-weight: 600;
+            }
+        }
+    }
+    .education{
+        color: white;
+        .header{
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            .blue-hr{
+                width: 63%;
+                margin-top: 0px;
+            }
+        }
+        .wrapper-icon{
+            padding: .5rem;
+            border-radius: 10px;
+            background-color: $secondary-color;
+            backdrop-filter: blur(25px);
+            width: fit-content;
+            height: fit-content;
+            margin-right: .5rem;
+        }
+        .edu{
+            .blue-hr{
+                width: 0px;
+                height: 100px;
+                margin-top: -10px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+                margin-left: 2.2%;
+            }
+            .primary-color{
+                color: #638FFF;
+            }
+        }
+    }
+    .certi{
+        color: white;
+        .header{
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            .blue-hr{
+                width: 60%;
+                margin-top: 0px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        .item{
+            background: $secondary-color;
+            backdrop-filter: blur(25px);
+            border-radius: 10px;
+            padding: 3rem;
+            img{
+                height: fit-content;
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+            .date{
+                font-size: 13px;
+            }
+            h6{
+                font-weight: 600;
+            }
+        }
+    }
+    .skill{
+        background: $secondary-color;
+        backdrop-filter: blur(25px);
+        border-radius: 10px;
+        padding: 3rem;
+        color: white;
+        .progress{
+            height: 7px;
+            background-color: #D9D9D980;
+            .progress-bar{
+                background-color: #638FFF;
+            }
+        }
+    }
+    .portfolio{
+        color: white;
+        .header{
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            .blue-hr{
+                width: 60%;
+                margin-top: 0px;
+                
+            }
+        }
+        .link{
+            a{
+                color: white;
+            }
+            :hover{
+                color: #638FFF !important;
+            }
+            :focus{
+                color: #638FFF !important;
+            }
+            .active{
+                color: $active;
+            }
+        }
+        .card-item{
+            .wrapper-img{
+                padding: 0rem 1.5rem 0rem 1.5rem;
+                border-radius: 10px;
+                background-color: $secondary-color;
+                backdrop-filter: blur(25px);
+                width: fit-content;
+            }
+        }
+    }
+    .contact{
+        color: white;
+        .header{
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            .blue-hr{
+                width: 60%;
+                margin-top: 0px;
+                
+            }
+        }
+        input.form-control{
+            width: 60%;
+        }
+        .form{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            .form-control{
+                background-color: transparent;
+                color: white;
+                border: 1px solid $active;
+                border-radius: 10px;
+            }
+            ::placeholder{
+                color: white;
+            }
+            .btn-submit{
+                background-color: $secondary-color;
+                border: 1px solid $active;
+                border-radius: 10px;
+                color: white;
+            }
+            .btn{
+                &:hover{
+                    background-color: #638FFF;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar{
+        width: 100% !important;
+    }
+}
