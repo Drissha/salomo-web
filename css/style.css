@@ -101,6 +101,16 @@ main .navbar :focus {
   color: #638FFF;
 }
 
+main .navbar .navbar-toggler {
+  margin-left: auto;
+  margin-right: 1rem;
+  border: 0.5px solid #638FFF;
+}
+
+main .navbar .navbar-toggler span {
+  color: #638FFF;
+}
+
 main .about {
   color: white;
   margin-top: 3rem;
@@ -370,6 +380,41 @@ main .contact .form .btn:hover {
 @media (max-width: 480px) {
   .navbar {
     width: 100% !important;
+  }
+  .sidebar .platform {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  main.px-5 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  main .WiD {
+    margin-top: 3rem;
+  }
+  main .WiD .item {
+    padding: 1rem;
+  }
+  main .education .edu .blue-hr {
+    margin-left: 6.6%;
+  }
+  main .certi .item {
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  main .link .me-4 {
+    margin-right: .5rem !important;
+    margin-left: .5rem;
+  }
+  main .portfolio .card-item .wrapper-img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main .contact input.form-control {
+    width: 100%;
+  }
+  main .contact .form {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -83,6 +83,14 @@ main{
         :focus{
             color: #638FFF;
         }
+        .navbar-toggler{
+            margin-left: auto;
+            margin-right: 1rem;
+            border: .5px solid $active;
+            span{
+                color: #638FFF;
+            }
+        }
     }
     .about{
         color: white;
@@ -221,6 +229,7 @@ main{
         .link{
             a{
                 color: white;
+                // margin-right: ;
             }
             :hover{
                 color: #638FFF !important;
@@ -288,5 +297,60 @@ main{
 @media (max-width: 480px) {
     .navbar{
         width: 100% !important;
+    }
+    .sidebar{
+        .platform{
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+        }
+    }
+    main{
+        &.px-5{
+            padding-left: 1rem !important;
+            padding-right: 1rem !important;
+        }
+        .WiD{
+            margin-top: 3rem;
+            .item{
+                padding: 1rem;
+            }
+        }
+        .education{
+            .edu{
+                .blue-hr{
+                    margin-left: 6.6%;
+                }
+            }
+        }
+        .certi{
+            .item{
+                padding: 1rem;
+                margin-top: 1rem;
+            }
+        }
+        .link{
+            .me-4{
+                margin-right: .5rem !important;
+                margin-left: .5rem;
+            }
+        }
+        .portfolio{
+            .card-item{
+                .wrapper-img{
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        }
+        .contact{
+            input{
+                &.form-control{
+                    width: 100%;
+                }
+            }
+            .form{
+                width: 100%;
+            }
+        }
     }
 }
